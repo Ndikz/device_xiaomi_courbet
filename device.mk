@@ -95,6 +95,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.ims.xml
 
+# Properties
+-include $(LOCAL_PATH)/product_prop.mk
+-include $(LOCAL_PATH)/system_prop.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
