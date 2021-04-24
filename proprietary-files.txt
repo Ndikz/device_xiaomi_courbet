@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from courbet-qssi-user-11-RKQ1.00826.002-V12.0.3.0.RKQMIXM
+# All unpinned blobs are extracted from courbet-qssi-user-11-RKQ1.200826.002-V12.0.3.0.RKQMIXM
 
 # Kernel Modules
 vendor/lib/modules/audio_apr.ko:product/vendor_overlay/30/lib/modules/audio_apr.ko
@@ -38,9 +38,8 @@ vendor/lib/modules/audio_tfa98xx.ko:product/vendor_overlay/30/lib/modules/audio_
 vendor/lib/modules/qca_cld3_wlan.ko:product/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko
 vendor/lib/modules/fpc1540.ko:product/vendor_overlay/30/lib/modules/fpc1540.ko
 
-
-# Soundfx - from LA.UM.8.9.r1-08400-SM6xx.0
-vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:|672ad577dab5221bdd7f840d87313e3483aebde0
+# SoundFX - from LA.UM.8.9.r1-08400-SM6xx.0
+vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib/soundfx/libvolumelistener.so|672ad577dab5221bdd7f840d87313e3483aebde0
 vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so|c25cc5e8c3622eb97d3bb4814aeb301c01d8b046
 
 # DPM
