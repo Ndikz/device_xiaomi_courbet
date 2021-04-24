@@ -115,3 +115,5 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_courbet
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
