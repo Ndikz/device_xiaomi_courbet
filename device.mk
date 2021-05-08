@@ -26,6 +26,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Fastboot 
 PRODUCT_PACKAGES += \
     fastbootd \
