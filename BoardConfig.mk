@@ -120,10 +120,10 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_SCREEN_DENSITY := 440
 
 # Sepolicy
+include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
-
-include device/qcom/sepolicy/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # VINTF
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/framework_manifest.xml
