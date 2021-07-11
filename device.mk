@@ -104,9 +104,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Screen density
-TARGET_SCREEN_DENSITY := 440
-
 include vendor/xiaomi/courbet/courbet-vendor.mk
 
 
