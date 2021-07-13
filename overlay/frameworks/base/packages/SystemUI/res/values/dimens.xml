@@ -21,15 +21,6 @@
          navigation_extra_key_width -->
     <dimen name="navigation_side_padding">85.0dip</dimen>
 
-    <dimen name="notch_height">104.0px</dimen>
-
-    <dimen name="notch_hole_type_status_bar_padding_top">36.0px</dimen>
-	
-    <dimen name="notch_width">144.0px</dimen>
-
-    <dimen name="round_cornor_padding">0.0px</dimen>
-
-    <dimen name="statusbar_hole_type_padding_left">144.0px</dimen>
-
-    <dimen name="statusbar_hole_type_padding_right">47.0px</dimen>
+    <dimen name="rounded_corner_content_padding">10dp</dimen>
+    
 </resources>
